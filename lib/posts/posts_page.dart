@@ -9,7 +9,7 @@ class PostsPage extends StatelessWidget {
   final posts = Post.posts;
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return SingleChildScrollView(
       child: Padding(
         padding: const EdgeInsets.symmetric(
           horizontal: 20,

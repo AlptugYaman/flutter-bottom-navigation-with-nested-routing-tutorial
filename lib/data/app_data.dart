@@ -5,6 +5,9 @@ class Post {
     Post(Colors.amberAccent, 'Post 1', 1),
     Post(Colors.blue, 'Post 2', 2),
     Post(Colors.pinkAccent, 'Post 3', 3),
+    Post(Colors.redAccent, 'Post 4', 4),
+    Post(Colors.yellowAccent, 'Post 5', 5),
+    Post(Colors.greenAccent, 'Post 6', 6),
   ];
   final Color color;
   final String title;
